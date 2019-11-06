@@ -159,7 +159,6 @@ ul li:hover ul li{
   transition: background .5s;
 }
 
-
 .main .container {
   margin: 80px auto;
 }
@@ -174,59 +173,10 @@ ul li:hover ul li{
 	margin-left:auto;
 	margin-right:auto;
 }
-
-.school image{
-  background: url(images/jumbotron_bg.jpg) center center;
-  background-size: cover;
-  height: 600px;
-}
-
-.school image.container {
-  position: relative;
-  top: 220px;
-}
-
-.school image h2 {
-  color: #fff;
-  text-align: right;
-}
-
-.school image p {
-  color: #fff;
-  text-align: right;
-}
-
-.school image.btn {
-  margin: 10px 0 0;
-  float: right;
-}
-
-.footer {
-  background: #000;
-  height: 80px;
-  padding-bottom: 50px;
-}
-
-.footer p {
-  color: #fff;
-  font-size: 14px;
-  height: 80px;
-  line-height: 80px;
-  margin: 0;
-}
-
 @media (max-width: 500px) {
   .header h1 {
     font-size: 500px;
     line-height: 64px;
   }
 
-  .main, .school image{
-    padding: 0 30px;
-  }
-
-  .main img {
-    width: 100%;
-  }
-  
 }
