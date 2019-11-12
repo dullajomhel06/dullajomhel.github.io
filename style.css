@@ -1,7 +1,7 @@
 .header p {
   
   font-weight: 500;
-  letter-spacing: 8px;
+  letter-spacing: 2px;
   margin-bottom: 40px;
   margin-top: 0;
   text-transform: uppercase;
@@ -14,7 +14,7 @@
   position: absolute;
   transform: translate(-50%,-50%);
   box-sizing: border-box;
-  padding: 70px 30px;
+  padding: 70px 20px;
 }
 .login-box{
   width: 320px;
@@ -51,13 +51,13 @@ h1{
   width: 100%;
   margin-bottom: 20px;
 }
-.login-box input[type="email"], input[type="password"]{
+.login-box input[type="email"], input[type="password"],input[type="text"]{
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
   outline: none;
   height: 40px;
-  color: #fff;
+  color: black;
   font-size: 16px; 
 }
 .login-box input[type="submit"]{
